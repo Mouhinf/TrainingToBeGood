@@ -9,7 +9,7 @@ func main() {
 	fmt.Print("Give the number that you want say the multiplication table : ")
 	fmt.Scan(&nb)
 	if nb <= 0 {
-		fmt.Println("Don't use the negative or nil number ")
+		fmt.Println("Don't use the negative or nil number")
 		fmt.Print("Give a correct number : ")
 		fmt.Scan(&nb)
 	}
