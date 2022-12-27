@@ -12,7 +12,7 @@ func Fibonacci(index int) int {
 
 func main() {
 	var nb int
-	fmt.Print("Give your number")
+	fmt.Print("Give your number : ")
 	fmt.Scan(&nb)
 	fmt.Println(Fibonacci(nb))
 }
