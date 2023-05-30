@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package piscine
 
 func Fibonacci(index int) int {
 	if index < 0 {
@@ -14,14 +12,4 @@ func Fibonacci(index int) int {
 	} else {
 		return 1
 	}
-
 }
-
-func main() {
-	var nb int
-	fmt.Print("Give your number : ")
-	fmt.Scan(&nb)
-	fmt.Println(Fibonacci(nb))
-}
-
-// For look the order of exercise watch the ReadMe
